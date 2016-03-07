@@ -1,0 +1,200 @@
+body
+{
+	background:url(/img/light-bg2.jpg);
+}
+
+table
+{
+	background:#f0f2f5;
+	color:#333;
+	font:85% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+}
+
+/* link colors */
+table a,table a:visited
+{
+	border-bottom:1px solid #C6C8CB;
+	color:#fff;
+}
+
+table a:hover
+{
+	color:#ccc;
+}
+
+table thead th a.filtered
+{
+	color:#f99;
+}
+
+table thead th a.sorted
+{
+	color:#9fbfdf;
+}
+/* titles */
+table thead th
+{
+	background:#3A4856;
+	color:#fff;
+	font-weight:400;
+	padding:10px 4px;
+	text-align:center;
+}
+
+/* main table style */
+table tbody,table thead
+{
+	border-left:1px solid #e3e6e8;
+	border-right:1px solid #e3e6e8;
+	text-align:left;
+}
+
+table tbody td,table tbody th
+{
+	border-bottom:1px solid #e3e6e8;
+	padding:4px;
+}
+
+table tbody tr
+{
+	background:#F3F5F7;
+}
+
+table tbody tr:hover
+{
+	background:#EAECEE;
+	color:#111;
+}
+
+table tbody tr:hover td.fegdwom.fantastic
+{
+	background-color:#7aebff;
+	border-bottom:1px solid #ccf7ff;
+}
+
+table tbody tr:hover td.fegdwom.excellent
+{
+	background-color:#ffea39;
+	border-bottom:1px solid #fff7b3;
+}
+
+table tbody tr:hover td.fegdwom.great
+{
+	background-color:#21dd2a;
+	border-bottom:1px solid #bcf5bf;
+}
+
+table tbody tr:hover td.fegdwom.decent
+{
+	background-color:#d29ded;
+	border-bottom:1px solid #ebd4f7;
+}
+
+table tbody tr:hover td.fegdwom.wayoff
+{
+	background-color:#e47c28;
+	border-bottom:1px solid #f6d6bb;
+}
+
+table tbody tr:hover td.fegdwom.miss
+{
+	background-color:#c20d0d;
+	border-bottom:1px solid #fab7b7;
+}
+
+table tfoot td,table tfoot th,table tfoot tr
+{
+	background:#F3F5F7;
+	font: 100%;
+	padding:6px;
+}
+
+table tfoot a,table tfoot a:visited
+{
+	color:#000;
+}
+
+table tfoot a:hover
+{
+	color:#ccc;
+}
+
+/* jqueryui css (for songpack tooltips) */
+
+.ui-tooltip
+{
+	background-color:#3A4856;
+	color:#9fbfdf;
+}
+
+.ui-widget {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+}
+
+.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+}
+
+/* fegdwom coloring */
+.fantastic
+{
+	background:#ccf7ff;
+	border-bottom:0;
+	border-top:1px solid #7aebff;
+	font-weight:700;
+}
+
+.excellent
+{
+	background:#fff7b3;
+	border-bottom:0;
+	border-top:1px solid #ffea39;
+	font-weight:700;
+}
+
+.great
+{
+	background:#bcf5bf;
+	border-bottom:0;
+	border-top:1px solid #21dd2a;
+	font-weight:700;
+}
+
+.decent
+{
+	background:#ebd4f7;
+	border-bottom:0;
+	border-top:1px solid #d29ded;
+	font-weight:700;
+}
+
+.wayoff
+{
+	background:#f6d6bb;
+	border-bottom:0;
+	border-top:1px solid #e47c28;
+	font-weight:700;
+}
+
+.miss
+{
+	background:#fab7b7;
+	border-bottom:0;
+	border-top:1px solid #c20d0d;
+	font-weight:700;
+}
+
+/* filter menu border color */
+.filter-menu
+{
+	background-color:#3A4856;
+}
+
+/* page render stats styling */
+.render
+{
+	font-size:75%;
+	height:8px;
+	padding:0;
+}

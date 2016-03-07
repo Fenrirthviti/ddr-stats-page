@@ -1,0 +1,114 @@
+/* NOTE: This CSS will affect both themes. Generally, you should not change anything in here */
+
+body
+{
+	white-space: nowrap;
+}
+
+div#wrapper
+{
+	width: 1200px;
+	margin: 25px auto;
+}
+
+/* main table style */
+table
+{
+	border-collapse: collapse;
+	width: 1200px;
+	table-layout: fixed;
+}
+
+table a
+{
+	text-decoration:none;
+}
+
+table thead th.date,table tbody td.date
+{
+	text-align:center;
+	width:140px;
+}
+
+table thead th.song,table tbody td.song
+{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	width:280px;
+}
+
+table thead th.difficulty,table tbody td.difficulty
+{
+	text-align:center;
+	width:80px;
+}
+
+table thead th.score,table tbody td.score
+{
+	text-align:center;
+	width:75px;
+}
+
+table thead th.grade,table tbody td.grade
+{
+	text-align:center;
+	width:85px;
+}
+
+table thead th.fegdwom,table tbody td.fegdwom
+{
+	text-align:center;
+	width:30px;
+}
+
+table thead th.plays,table tbody td.plays
+{
+	text-align:center;
+	width:50px;
+}
+
+table thead th.player,table tbody td.player
+{
+	text-align:center;
+	width:70px;
+}
+
+table tfoot tr
+{
+	text-align:left;
+	text-transform:uppercase;
+}
+
+/* filter menu style */
+.filter-button
+{
+	cursor:pointer;
+	position:relative;
+	top:2px;
+}
+
+.filter-menu
+{
+	border:1px solid #111;
+	display:none;
+	padding:10px;
+	position:absolute;
+	z-index:999;
+}
+
+.switch
+{
+	text-align:right;
+}
+
+select
+{
+	font-size:16px;
+	padding:5px;
+}
+
+/* page render stats styling */
+.render
+{
+	text-align:right;
+}

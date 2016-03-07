@@ -1,0 +1,144 @@
+body
+{
+	background:url(/img/dark-bg2.jpg);
+}
+
+table
+{
+	border:1px solid #1a1a1a;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/* link colors */
+table a,table a:visited
+{
+	color:#F60;
+	border-bottom:1px solid #f60
+}
+
+table a:hover
+{
+	color:#ff8533;
+	border-bottom:1px solid #ff8533;
+}
+
+table thead tr a,table thead tr a:visited
+{
+	font-size:12px;
+	font-weight:700;
+}
+
+table thead th a.filtered
+{
+	color:#c03f80;
+	border-bottom:1px solid #c03f80;
+}
+
+table thead th a.sorted
+{
+	color:#fc0;
+	border-bottom:1px solid #fc0;
+}
+/* titles */
+table thead tr
+{
+	background-color:#262626;
+	color:#8e8e8e;
+	font-size:85%;
+	height:30px;
+	letter-spacing:.13em;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+/* main table style */
+table tbody tr
+{
+	background:url(/img/bg-normal.png);
+	color:#8e8e8e;
+	font-size:85%;
+	height:30px;
+	padding:4px;
+}
+
+table tbody tr:hover
+{
+	background:url(/img/bg-hover.png);
+	color:#aeaeae;
+}
+
+table tfoot tr
+{
+	background-color:#1c1c1c;
+	border:solid #000;
+	border-width:0 1px;
+	color:#d6d6d6;
+	font-size:75%;
+	letter-spacing:.13em;
+}
+
+/* jqueryui css (for songpack tooltips) */
+.ui-tooltip 
+{
+	background-color: #303030;
+	color: #ffcc00;
+}
+
+.ui-widget {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* fegdwom coloring */
+.fantastic
+{
+	color:#7aebff;
+	text-shadow:0 0 2px #7aebff;
+}
+
+.excellent
+{
+	color:#ffea39;
+	text-shadow:0 0 2px #ffea39;
+}
+
+.great
+{
+	color:#21dd2a;
+	text-shadow:0 0 2px #21dd2a;
+}
+
+.decent
+{
+	color:#d29ded;
+	text-shadow:0 0 2px #d29ded;
+}
+
+.wayoff
+{
+	color:#e47c28;
+	text-shadow:0 0 2px #e47c28;
+}
+
+.miss
+{
+	color:#c20d0d;
+	text-shadow:0 0 2px #c20d0d;
+}
+
+/* filter menu border color */
+.filter-menu
+{
+	background-color:#262626;
+}
+
+/* page render stats styling */
+.render
+{
+	border-bottom:1px solid #000;
+	color:#8e8e8e;
+	font-size:75%;
+}
